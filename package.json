@@ -15,6 +15,7 @@
     "webpack-dev-server": "^2.3.0"
   },
   "dependencies": {
+    "material-ui": "^0.16.7",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
