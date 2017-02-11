@@ -3,5 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Enguerran <enguerran@ticabri.com>",
-  "license": "GNUGPLv3"
+  "license": "GNUGPLv3",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-react": "^6.22.0",
+    "react-hot-loader": "3.0.0-beta.6",
+    "standard": "^8.6.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "lint": "standard"
+  }
 }
